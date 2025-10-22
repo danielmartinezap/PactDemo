@@ -3,16 +3,22 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha consumerPactTest.js",
+    "test:consumer": "mocha consumerPactTest.js",
+    "test:provider": "node provider.js",
+    "verify:pacts": "node verifyPacts.js",
+    "test:all": "npm run test:consumer && npm run verify:pacts",
+    "start:provider": "node provider.js",
+    "publish:pacts": "pact-broker publish pacts --consumer-app-version=1.0.0 --broker-base-url=https://your-broker-url.com"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@pact-foundation/pact": "^13.1.2",
+    "@pact-foundation/pact": "^13.2.0",
     "@pact-foundation/pact-node": "^10.18.0",
-    "chai": "^5.1.1",
-    "mocha": "^10.7.3"
+    "chai": "^6.2.0",
+    "mocha": "^11.7.4"
   }
 }
