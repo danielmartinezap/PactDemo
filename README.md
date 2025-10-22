@@ -1,17 +1,17 @@
 # Pact.js Contract Testing Demo - 2025 Edition
 
-This project demonstrates **Consumer-Driven Contract Testing** using Pact.js v16, designed for AQA engineers learning the fundamentals.
+This project demonstrates **Consumer-Driven Contract Testing** using Pact.js v13.2.0, designed for AQA engineers learning the fundamentals.
 
-## 🎯 What This Project Teaches
+##  What This Project Teaches
 
 - **Contract Testing Fundamentals**: How consumer and provider teams can collaborate through contracts
-- **Pact.js v16 Features**: Latest 2025 features and best practices
-- **Real-world Implementation**: Practical examples your team can adapt
+- **Pact.js v13.2.0 Features**: Stable 2025 features and best practices
+- **Real-world Implementation**: Practical examples our team can adapt
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
-- Node.js 16+ (required for Pact.js v16)
+- Node.js 16+ (required for Pact.js v13.2.0)
 - npm or yarn
 
 ### Installation
@@ -41,7 +41,7 @@ npm install
    npm run test:all
    ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── consumer.js              # Consumer service (HTTP client)
@@ -53,30 +53,30 @@ npm install
 └── logs/                    # Pact execution logs
 ```
 
-## 🔧 2025 Best Practices Included
+## 2025 Best Practices Included
 
-### ✅ Modern Pact.js v16
+### Modern Pact.js v13.2.0
 - Latest Pact.js features and performance improvements
 - Updated to Pact Specification v2.0.0
 - Enhanced error reporting and debugging
 
-### ✅ Environment Configuration
+### Environment Configuration
 - Configurable URLs and ports
 - Environment-specific settings
 - CI/CD ready configuration
 
-### ✅ Comprehensive Scripts
+### Comprehensive Scripts
 - `npm run test:consumer` - Run contract tests
 - `npm run start:provider` - Start provider service
 - `npm run verify:pacts` - Verify contracts
 - `npm run test:all` - Complete test cycle
 
-### ✅ Pact Broker Integration Ready
+### Pact Broker Integration Ready
 - Configuration for Pact Broker
 - Publishing and verification workflows
 - Team collaboration features
 
-## 🎓 Learning Path for AQA Engineers
+## Learning Path for AQA Engineers
 
 ### 1. **Understanding the Flow**
 1. Consumer defines expected API behavior
@@ -96,7 +96,7 @@ npm install
 - Share contracts via Pact Broker
 - Catch breaking changes early
 
-## 🔄 CI/CD Integration
+## CI/CD Integration
 
 ### GitHub Actions Example
 ```yaml
@@ -115,13 +115,12 @@ jobs:
       - run: npm run verify:pacts
 ```
 
-## 📚 Additional Resources
+## Additional Resources
 
 - [Pact.js Documentation](https://docs.pact.io/implementation_guides/javascript)
 - [Pact Broker](https://docs.pact.io/pact_broker)
-- [Contract Testing Best Practices](https://docs.pact.io/best_practices)
 
-## 🤝 Contributing
+## Contributing
 
 This is a learning project! Feel free to:
 - Add more test scenarios
@@ -130,4 +129,4 @@ This is a learning project! Feel free to:
 
 ---
 
-**Built for AQA Engineers** | **Updated for 2025** | **Pact.js v16**
+**Built for AQA Engineers** | **Updated for 2025** | **Pact.js v13.2.0**
