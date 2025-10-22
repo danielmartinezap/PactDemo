@@ -1,17 +1,17 @@
 # Pact.js Contract Testing Demo - 2025 Edition
 
-This project demonstrates **Consumer-Driven Contract Testing** using Pact.js v16, designed for AQA engineers learning the fundamentals.
+This project demonstrates **Consumer-Driven Contract Testing** using Pact.js v13.2.0, designed for AQA engineers learning the fundamentals.
 
 ## 🎯 What This Project Teaches
 
 - **Contract Testing Fundamentals**: How consumer and provider teams can collaborate through contracts
-- **Pact.js v16 Features**: Latest 2025 features and best practices
+- **Pact.js v13.2.0 Features**: Latest 2025 features and best practices
 - **Real-world Implementation**: Practical examples your team can adapt
 
 ## 🚀 Quick Start
 
 ### Prerequisites
-- Node.js 16+ (required for Pact.js v16)
+- Node.js 16+ (required for Pact.js v13.2.0)
 - npm or yarn
 
 ### Installation
@@ -55,7 +55,7 @@ npm install
 
 ## 🔧 2025 Best Practices Included
 
-### ✅ Modern Pact.js v16
+### ✅ Modern Pact.js v13.2.0
 - Latest Pact.js features and performance improvements
 - Updated to Pact Specification v2.0.0
 - Enhanced error reporting and debugging
@@ -130,4 +130,4 @@ This is a learning project! Feel free to:
 
 ---
 
-**Built for AQA Engineers** | **Updated for 2025** | **Pact.js v16**
+**Built for AQA Engineers** | **Updated for 2025** | **Pact.js v13.2.0**
